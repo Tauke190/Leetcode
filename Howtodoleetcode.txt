@@ -1,0 +1,13 @@
+P - Did on my own without looking anything 
+F - Could not do it on my own
+
+1. Look at the constraint , it is important my boi
+2. Try to understand the question with bruteforce technique
+3. The most important thing is to come up with the correct efficient data structures
+4. Think about the solution for 30 , 45 mins or 1 hour
+5. If you cannot solve , look for small hints 
+6. If it does not work , look for the solution but not code
+7. If you still dont understand , see the explantion video
+8. If it does not work also , finally look at the code 
+9. Think of the algorithm with the desired complexity if the solution looks easy with bruteforce
+

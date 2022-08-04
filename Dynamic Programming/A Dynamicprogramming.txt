@@ -1,0 +1,37 @@
+DynamicProgramming
+
+
+
+
+
+1. Problem can be broken down to sub-problem which may be overlapping
+2. If not overlapping , we use divide and conquer
+
+There are two ways to implement a DP algorithm:
+
+1.Bottom-up, also known as tabulation. (Iterative approach)
+2.Top-down, also known as memoization. ( Recursive) ( Stores the result of the sub problem in the hashmap)
+
+
+Pros
+1. Avoids recalculation of overlapping subproblems
+2. Reuses the results of subproblems rather than recalculating the results for previously seen subproblems.
+
+
+
+When to use it ?
+1.The problem can be broken down into "overlapping subproblems" - smaller versions of the original problem that are re-used multiple times
+2.The problem has an "optimal substructure" - an optimal solution can be formed from optimal solutions to the overlapping subproblems of the original problem
+
+Greedy algorithm
+1. A problem in this format (asking for the max/min/longest etc.) is meant to be solved with a greedy algorithm
+
+
+DynamicProgramming
+1. When the earlier decision impact the future choice 
+
+
+
+Problems
+-House Robber Problem - Loot the max cash of house which are not ajacent [1,7,2,3,9]
+-Longest Increasing Subsequence - Find the length of the longest Increasing substring [ 1, 2, 6,3,5]      if [1,2,6] is taken , length = 4 , if [1,2,3,5] taken length = 5

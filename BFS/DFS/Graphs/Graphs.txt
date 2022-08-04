@@ -1,0 +1,32 @@
+GRAPS 
+
+
+
+
+Representation of graphs 
+
+
+
+
+
+1.Adjacency Matrix
+-Adjacency matrix for undirected graph is always symmetric
+
+
+
+
+2.Adjacency List
+
+
+
+
+
+Traversal in Graph 
+
+
+1.Breadth first search 
+2.Depth first search
+
+
+
+

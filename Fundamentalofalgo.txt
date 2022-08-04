@@ -1,0 +1,9 @@
+FUNDAMENTALS OF ALGO
+
+1. When you try to design a algorithm , keep all the types of major test cases in mind (Not necessarily corner cases)
+2. If you fail when you only thinking of the input , start thinking of the output also
+3. Traversing from the last to first and first to last matters alot especially while doing in-place implementation
+4. Better way of representing the linked list would be to include the head pointer and the NULL pointer at the end
+5. While doing recursion , make a recursion stack
+6. While doing DFS , mark it as visited so it doest cause any problem
+7. While doing tree problem , please think and break the problem into smaller problems
