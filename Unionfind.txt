@@ -1,0 +1,21 @@
+Union Find Algorithm 
+
+
+1.To Group Objects
+2.To detect cycles in the graph
+3.
+
+
+
+
+
+Parent Find(x) -------> Returns the set in which the elememt is part of
+   if x!= Parent(x)
+      return Find(Parent(x))
+   else
+      return x
+      
+
+
+Union(x,y)------------->Set the Parent of y to be the child of the parent of x
+  Parent(find[y]) = find(x)
