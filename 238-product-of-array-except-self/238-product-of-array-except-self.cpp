@@ -1,3 +1,24 @@
+/* 
+Difficulty - Easy 
+Type - Array / Prefix Sum
+Attmept 1  - Could Only Solve it with DFS but TLA
+Attempt 2  - Could solve it with prefix/postfix
+
+
+
+Algorithm
+1. Make prefix array and postfix array
+2. prefix is like the partial sum that is the sum of all the elements till that index
+3. prefix is like the partial sum that is the sum of all elements after that index
+4. Instead of adding use mulplication in the prefix sum
+5. In the next loop , define logic for the first and last element in the array
+6. For all the rest , prefix[i-1] gives the product of the left side
+7. For all the rest , postfix[i+1] gives the product on the right side
+8. Multiply these and put them in the results array
+4. Return the results array
+*/
+
+
 class Solution 
 {
     int LEFT = -1;
