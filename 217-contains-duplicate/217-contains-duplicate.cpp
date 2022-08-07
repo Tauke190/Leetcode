@@ -16,6 +16,7 @@ public:
             else
             {
                 hasduplicate = true;
+                break;
             }
         }
         
