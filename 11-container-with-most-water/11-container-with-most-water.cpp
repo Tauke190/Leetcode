@@ -1,3 +1,6 @@
+
+
+
 class Solution {
 public:
     int maxArea(vector<int>& height)
@@ -11,10 +14,8 @@ public:
         
         while(left < right)
         {
-           
-           
-            int area = min(height[left] , height[right]) * distance;
-            maxarea = max(maxarea,area);
+            //min(height[left] , height[right]) * distance gives area of the current container
+            maxarea = max(maxarea,min(height[left] , height[right]) * distance);
             
             if(height[left] <= height[right])
             {
@@ -26,7 +27,6 @@ public:
                 right--;
                 distance--;
             }
-            
         }
         return maxarea;
     }
