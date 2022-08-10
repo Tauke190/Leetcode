@@ -1,3 +1,27 @@
+/* 
+Difficulty - Easy 
+Type - Array / Prefix Sum
+Attmept 1  - 45 Mins(Solved) - with the help of leetcode hints
+
+
+
+Time  Complexity: 0(N)
+Space Complexity: 0(1)
+
+Algorithm
+1. Greedy Algorithms , do the best move/operation that is possible
+2. Convert the current and correct time into strings
+3. Our goal is to reach from current in mins to correct time in mins
+4. Set a while loop and keep track of difference
+5. The best possible move would be use the greatest operation which is to increase by 60 if it satisfies the    constraints
+6. If the difference is greater than 60 ,we can increase by 60
+7. If the difference is between 60 and 15, we can use 15 and so on 
+8. Increment the operation counter at the end of the while loop
+9. Return the time
+4.Return the array
+*/
+
+
 class Solution {
 public:
     int convertTime(string current, string correct)
