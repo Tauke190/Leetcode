@@ -49,29 +49,22 @@ public:
 };
 
 
-// Method 2 : Sum approach O(nlogn)
+// Method 2 : Sum approach O(N)
 
-class Solution
-{
+class Solution {
 public:
     int missingNumber(vector<int>& nums) 
     {
-        int n = nums.size();
-        int totalsum1 = (n*(n+1))/2;
-        int totalsum2 = 0;
+        int N = nums.size();
         
-        int missing = 0;
-    
-        cout<<totalsum1<<endl;
+        int totalsum = N * (N + 1)/2;               // Get the total sum of the natural numbers
+        int vectorsum = 0;
         
-        for(int i = 0 ; i < nums.size() ; i++)
+        for(auto i : nums)                          // Get the sum of the elements in the vector
         {
-            totalsum2 += nums[i];
+            vectorsum +=  i;
         }
-         cout<<totalsum2<<endl;
         
-        missing = totalsum1 - totalsum2;
-               
-      return missing;
+        return totalsum - vectorsum;               // The difference is the missing element in the vector
     }
 };
