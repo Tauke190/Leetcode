@@ -4,7 +4,7 @@
 
 using namespace std;
 /* 
-Difficulty - Easy 
+Difficulty - Hard 
 Type - Two Pointer 
 Attmept 1 - Was trying to convert it to a area problem with no solution , Spent like 3 hours
 Attempt 2 - Looked at the complete bruteforce solution 0(n^2) but still getting a TLA 
